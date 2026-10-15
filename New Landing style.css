@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf7f4;
+    color: #35251e;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+h1,
+h2,
+blockquote {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    color: #704c37;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #704f39;
+    color: #ffffff;
+    text-align: center;
+    padding: 48px 20px 36px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+header p {
+    display: inline-block;
+    background-color: #a99585;
+    color: #3c2d24;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+header a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #ce5039;
+    color: #ffffff;
+    padding: 11px 28px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+main {
+    width: 100%;
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 38px 0 35px;
+}
+
+section {
+    margin-bottom: 38px;
+}
+
+#story {
+    text-align: center;
+    padding: 0 18px;
+    margin-bottom: 40px;
+}
+
+#story h2 {
+    margin-bottom: 15px;
+}
+
+#story p {
+    color: #88776b;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+#menu {
+    margin-bottom: 30px;
+}
+
+#menu h2 {
+    margin-bottom: 24px;
+}
+
+#menu article {
+    background-color: #ffffff;
+    border: 1px solid #eee3dc;
+    border-radius: 9px;
+    padding: 20px;
+    margin-bottom: 14px;
+}
+
+#menu article > {
+    color: #8b6955;
+}
+
+#menu article h3 {
+    color: #211510;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 7px;
+}
+
+/* Product prices */
+
+#menu article h3 + p {
+    color: #d94d36;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Product descriptions */
+
+#menu article p:last-child {
+    color: #8a786d;
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Best Seller and New labels */
+
+#menu article > p:first-child:not(:last-child) {
+    background-color: #f4ebe5;
+    border-radius: 3px;
+    padding: 5px 9px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#menu article:not(:has(> p:first-child:last-child)) {
+    position: relative;
+}
+
+
+aside {
+    background-color: #fff8f0;
+    border-left: 4px solid #79543d;
+    padding: 18px 20px;
+    margin-bottom: 38px;
+}
+
+aside h3 {
+    color: #5b3d2d;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+aside p {
+    color: #8a786d;
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+#opening-hours {
+    margin-bottom: 0;
+}
+
+#opening-hours h2 {
+    margin-bottom: 25px;
+}
+
+#opening-hours table {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#opening-hours th {
+    font-weight: normal;
+}
+
+#opening-hours th,
+#opening-hours td {
+    border-bottom: 1px solid #eadfd7;
+    padding: 12px 14px;
+    font-size: 12px;
+}
+
+#opening-hours th:first-child,
+#opening-hours td:first-child {
+    color: #704f39;
+    font-weight: bold;
+}
+
+#opening-hours th:last-child,
+#opening-hours td:last-child {
+    color: #8a786d;
+    white-space: nowrap;
+}
+
+
+#testimonial {
+    background-color: #704f39;
+    color: #ffffff;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 38px 20px 30px;
+    text-align: center;
+}
+
+#testimonial blockquote {
+    max-width: 470px;
+    margin: 0 auto;
+}
+
+#testimonial blockquote p {
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+#testimonial blockquote footer {
+    color: #ddc9b8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+
+body > footer {
+    background-color: #faf7f4;
+    color: #8a786d;
+    text-align: center;
+    padding: 24px 15px 20px;
+}
+
+body > footer p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+body > footer p strong {
+    color: #705342;
+}
+
+body > footer address {
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 5px;
+}

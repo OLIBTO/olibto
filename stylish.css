@@ -1,0 +1,46 @@
+
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    border: 1px solid #000;
+}
+
+h2 {
+    color: rgb(240, 240, 245);
+    background-color: rgb(27, 5, 226);
+}
+
+h2 {
+    color: rgb(247, 247, 247);
+    width: fit-content;
+    
+}
+
+p {
+    font-size: 20px;
+    color: green;
+}
+b {
+    color: rgb(219, 19, 19);
+}
+.red {
+    background-color: rgb(108, 1, 247);
+}
+.green {
+    background-color: rgb(2, 53, 2);
+}
+.yellow {
+    background-color: rgb(16, 9, 39);
+}
+#header-one {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+#header-two {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+#header-three {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
